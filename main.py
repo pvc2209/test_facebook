@@ -111,7 +111,7 @@ class FacebookTest(unittest.TestCase):
         self.assertEqual(blocked_friend, last_blocked_friend)
 
     def tearDown(self):
-        self.driver.close()
+        self.driver.quit()
 
 
 if __name__ == "__main__":
